@@ -151,9 +151,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="containerlib.h" />
+    <ClInclude Include="datelib.h" />
+    <ClInclude Include="filelib.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="uilib.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="datelib.cpp" />
+    <ClCompile Include="filelib.cpp" />
     <ClCompile Include="Files.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

@@ -1,0 +1,16 @@
+﻿  Files.cpp
+c:\users\alexa\documents\github\files\files\containerlib.h(82): warning C4018: <: несоответствие типов со знаком и без знака
+  c:\users\alexa\documents\github\files\files\containerlib.h(81): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\users\alexa\documents\github\files\files\files.cpp(143): note: выполняется компиляция ссылки на экземпляр шаблон функции "void Container<File>::erase(int)"
+  c:\users\alexa\documents\github\files\files\files.cpp(56): note: выполняется компиляция ссылки на экземпляр шаблон класс "Container<File>"
+c:\users\alexa\documents\github\files\files\containerlib.h(76): warning C4018: <: несоответствие типов со знаком и без знака
+  c:\users\alexa\documents\github\files\files\containerlib.h(75): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\users\alexa\documents\github\files\files\files.cpp(146): note: выполняется компиляция ссылки на экземпляр шаблон функции "void Container<File>::change(int)"
+c:\users\alexa\documents\github\files\files\containerlib.h(60): warning C4018: <: несоответствие типов со знаком и без знака
+  c:\users\alexa\documents\github\files\files\containerlib.h(29): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\users\alexa\documents\github\files\files\files.cpp(83): note: выполняется компиляция ссылки на экземпляр шаблон функции "Container<File> Container<File>::binarySearch(T &,bool (__cdecl *)(T,T))"
+          with
+          [
+              T=File
+          ]
+  Files.vcxproj -> C:\Users\alexa\Documents\GitHub\Files\Debug\Files.exe
